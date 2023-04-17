@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(){
+    int indice = 13; 
+    int soma = 0;
+    int K=0;
+    do{
+        K = K + 1;
+        soma = soma + K;
+    }
+    while (K<indice);
+    printf("%d", soma);
+    return 0;
+}
+Saida = 91
+
+
+
+
